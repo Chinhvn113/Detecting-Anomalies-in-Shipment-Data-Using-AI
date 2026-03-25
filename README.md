@@ -28,7 +28,14 @@ The following table describes the engineered features created during the data pr
 | IQR Score | `iqr_score` | Outlier score based on distance from the peer-group interquartile range (IQR). Higher values indicate stronger deviation from the typical peer-group price range. |
 | Rarity Score | `rarity_score` | Rarity-based score derived from how uncommon a shipment's peer-group characteristics are in the dataset. Higher values indicate rarer, potentially anomalous declarations. |
 
-## Data Path
+## Data
+
+The dataset used in this project is sourced from:
+- **Repository**: [Customs-Declaration-Datasets](https://github.com/Seondong/Customs-Declaration-Datasets)
+
+This project utilizes synthetic versions of customs declaration data with engineered features for anomaly detection.
+
+### Data Path
 
 Default input path is configured as:
 
